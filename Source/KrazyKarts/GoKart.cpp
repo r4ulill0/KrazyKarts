@@ -27,10 +27,16 @@ void AGoKart::Tick(float DeltaTime)
 	FVector Force = MaxDrivingForce * Throttle * GetActorForwardVector();
 	FVector Acceleration = Force / Mass;
 	Velocity = Velocity + Acceleration * DeltaTime;
-	FVector NewPosition = 100 * Velocity * DeltaTime;
-	AddActorWorldOffset(NewPosition);
+	updatePositionFromVelocity();
 }
 
+void AGoKart::updatePositionFromVelocity()
+{
+	FVector NewPosition = 100 * Velocity * DeltaTime;
+	FHitResult hitResult;
+	AddActorWorldOffset(NewPosition, true, &hitResult);
+	if (hitResult.IsValidBlockingHit()) Velocity = FVector::ZeroVector;
+}
 // Called to bind functionality to input
 void AGoKart::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {

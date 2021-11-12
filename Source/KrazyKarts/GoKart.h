@@ -36,6 +36,7 @@ public:
 private:
 
 	void MoveForward(float Value);
+	void updatePositionFromVelocity();
 
 	FVector Velocity;
 	float Throttle;
