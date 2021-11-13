@@ -33,11 +33,16 @@ public:
 	UPROPERTY(EditAnywhere)
 	float MaxDrivingForce = 10000;
 
+	UPROPERTY(EditAnywhere)
+	float MaxDegreesPerSecond = 90;
 private:
 
 	void MoveForward(float Value);
-	void updatePositionFromVelocity();
+	void MoveRight(float Value);
+	void UpdatePositionFromVelocity(float DeltaTime);
+	void UpdateRotation(float DeltaTime);
 
 	FVector Velocity;
 	float Throttle;
+	float SteeringThrow; 
 };
