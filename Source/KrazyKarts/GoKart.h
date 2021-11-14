@@ -35,8 +35,11 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	float MaxDegreesPerSecond = 90;
+	// Air drag resistance
+	UPROPERTY(EditAnywhere)
+	float DragCoefficient = 16;
 private:
-
+	FVector getResistance();
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 	void UpdatePositionFromVelocity(float DeltaTime);
