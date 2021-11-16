@@ -38,8 +38,10 @@ void AGoKart::Tick(float DeltaTime)
 
 void AGoKart::UpdateRotation(float DeltaTime)
 {
-	float RotationAngle = SteeringThrow * MaxDegreesPerSecond * DeltaTime;
-	FQuat RotationDelta(GetActorUpVector(), FMath::DegreesToRadians(RotationAngle));
+	float CoveredDistancePerSecond = FVector::DotProduct(GetActorForwardVector(), Velocity) * DeltaTime;
+	float RotationAngle = CoveredDistancePerSecond /MinSteeringRadius * SteeringThrow;
+	// float RotationAngle = SteeringThrow * MinSteeringRadius * DeltaTime;
+	FQuat RotationDelta(GetActorUpVector(), RotationAngle);
 	AddActorWorldRotation(RotationDelta);
 	Velocity = RotationDelta.RotateVector(Velocity);
 }

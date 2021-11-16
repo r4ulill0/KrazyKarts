@@ -30,11 +30,13 @@ public:
 	UPROPERTY(EditAnywhere)
 	float Mass = 1000;
 
+	/** Force applied by the car engine */
 	UPROPERTY(EditAnywhere)
 	float MaxDrivingForce = 10000;
 
+	/** Radius of the minimum circle the car can rotate around with maximum steering */
 	UPROPERTY(EditAnywhere)
-	float MaxDegreesPerSecond = 90;
+	float MinSteeringRadius = 10;
 
 	// Air drag resistance
 	UPROPERTY(EditAnywhere)
