@@ -3,6 +3,7 @@
 
 #include "GoKart.h"
 #include "Engine/World.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AGoKart::AGoKart()
@@ -17,6 +18,24 @@ void AGoKart::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+// This was created because yolo, it could be used UEnum::GetValueAsString(GetLocalRole(), value); instead
+FString GetEnumText(ENetRole Role)
+{
+	switch (Role)
+	{
+	case ROLE_None:
+		return "None";
+	case ROLE_SimulatedProxy:
+		return "SimulatedProxy";
+	case ROLE_AutonomousProxy:
+		return "AutonomousProxy";
+	case ROLE_Authority:
+		return "Authority";
+	default:
+		return "None";
+	}
 }
 
 // Called every frame
@@ -34,6 +53,8 @@ void AGoKart::Tick(float DeltaTime)
 
 	UpdateRotation(DeltaTime);
 	UpdatePositionFromVelocity(DeltaTime);
+
+	DrawDebugString(GetWorld(), FVector(0,0,100), GetEnumText(GetLocalRole()), this, FColor::White, DeltaTime);
 }
 
 void AGoKart::UpdateRotation(float DeltaTime)
@@ -53,6 +74,7 @@ void AGoKart::UpdatePositionFromVelocity(float DeltaTime)
 	AddActorWorldOffset(NewPosition, true, &hitResult);
 	if (hitResult.IsValidBlockingHit()) Velocity = FVector::ZeroVector;
 }
+
 // Called to bind functionality to input
 void AGoKart::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -60,7 +82,21 @@ void AGoKart::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AGoKart::Server_MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AGoKart::Server_MoveRight);
+	PlayerInputComponent->BindAxis("MoveForward", this, &AGoKart::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AGoKart::MoveRight);
 
+}
+
+void AGoKart::MoveForward(float Value)
+{
+	Throttle = Value;
+	Server_MoveForward(Value);
+}
+
+void AGoKart::MoveRight(float Value)
+{
+	SteeringThrow = Value;
+	Server_MoveRight(Value);
 }
 
 void AGoKart::Server_MoveForward_Implementation(float Value)
@@ -87,6 +123,7 @@ FVector AGoKart::GetAirResistance()
 {
 	return Velocity.GetSafeNormal() * Velocity.SizeSquared() * -1 * DragCoefficient;
 }
+
 FVector AGoKart::GetRollingResistance()
 {
 	GetWorld()->GetGravityZ();
