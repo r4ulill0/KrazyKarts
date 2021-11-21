@@ -387,7 +387,7 @@
 				"KrazyKarts",
 				"Win64",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
