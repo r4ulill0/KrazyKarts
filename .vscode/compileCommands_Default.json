@@ -1,67 +1,77 @@
 [
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.Build.cs",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\GoKart.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.cpp",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\GoKart.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.h",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsGameMode.cpp",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsGameMode.h",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsHud.cpp",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsGameMode.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsHud.h",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsGameMode.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsPawn.cpp",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsHud.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsPawn.h",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsHud.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelFront.cpp",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsPawn.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelFront.h",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsPawn.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelRear.cpp",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelFront.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
-		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelRear.h",
-		"command": "cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.183.rsp\"",
-		"directory": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Source"
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelFront.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelRear.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKartsWheelRear.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_Default\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	}
 ]

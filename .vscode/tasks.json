@@ -9,13 +9,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"KrazyKarts",
 				"Win32",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -35,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -46,13 +46,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -63,13 +63,13 @@
 				"KrazyKarts",
 				"Win32",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"KrazyKarts",
 				"Win32",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -89,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -100,13 +100,13 @@
 				"KrazyKarts",
 				"Win32",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -117,13 +117,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"KrazyKarts",
 				"Win32",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -143,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -154,13 +154,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -171,13 +171,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Shipping",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 				"KrazyKarts",
 				"Win32",
 				"Shipping",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -197,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -208,13 +208,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Shipping",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -225,13 +225,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Test",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
 				"KrazyKarts",
 				"Win32",
 				"Test",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -251,7 +251,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -262,13 +262,13 @@
 				"KrazyKarts",
 				"Win32",
 				"Test",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -279,13 +279,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -296,7 +296,7 @@
 				"KrazyKarts",
 				"Win64",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -305,7 +305,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -316,13 +316,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -333,13 +333,13 @@
 				"KrazyKarts",
 				"Win64",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -350,7 +350,7 @@
 				"KrazyKarts",
 				"Win64",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -359,7 +359,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -370,13 +370,13 @@
 				"KrazyKarts",
 				"Win64",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -393,7 +393,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -404,7 +404,7 @@
 				"KrazyKarts",
 				"Win64",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -413,7 +413,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -424,13 +424,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -441,13 +441,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Shipping",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -458,7 +458,7 @@
 				"KrazyKarts",
 				"Win64",
 				"Shipping",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -467,7 +467,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -478,13 +478,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Shipping",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -495,13 +495,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Test",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -512,7 +512,7 @@
 				"KrazyKarts",
 				"Win64",
 				"Test",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +521,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -532,13 +532,13 @@
 				"KrazyKarts",
 				"Win64",
 				"Test",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -549,13 +549,13 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -566,7 +566,7 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,7 +575,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -586,13 +586,13 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"Debug",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -603,13 +603,13 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -620,7 +620,7 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,7 +629,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -640,13 +640,13 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"DebugGame",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -657,13 +657,13 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -674,7 +674,7 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -683,7 +683,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		},
 		{
@@ -694,13 +694,13 @@
 				"KrazyKartsEditor",
 				"Win64",
 				"Development",
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+				"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 			}
 		}
 	]

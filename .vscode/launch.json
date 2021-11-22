@@ -5,124 +5,124 @@
 			"name": "KrazyKarts (Debug)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKarts Win64 Debug Build",
-			"program": "D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "D:\\VideoGamesProjects\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKarts (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKarts Win64 DebugGame Build",
-			"program": "D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "D:\\VideoGamesProjects\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKarts (Development)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKarts Win64 Development Build",
-			"program": "D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\Binaries\\Win64\\UE4.exe",
+			"program": "D:\\VideoGamesProjects\\KrazyKarts\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKarts (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKarts Win64 Shipping Build",
-			"program": "D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "D:\\VideoGamesProjects\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKarts (Test)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKarts Win64 Test Build",
-			"program": "D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "D:\\VideoGamesProjects\\KrazyKarts\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKartsEditor (Debug)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKartsEditor Win64 Debug Build",
-			"program": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"program": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject"
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject"
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKartsEditor (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKartsEditor Win64 DebugGame Build",
-			"program": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"program": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject"
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject"
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "KrazyKartsEditor (Development)",
 			"request": "launch",
 			"preLaunchTask": "KrazyKartsEditor Win64 Development Build",
-			"program": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"program": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject"
+				"D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject"
 			],
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26",
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Generate Project Files",
 			"type": "clr",
 			"request": "launch",
-			"program": "C:\\FastEpicGamesLibrary\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"program": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
 			"console": "externalTerminal",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts\\KrazyKarts.uproject",
+				"-project=D:\\VideoGamesProjects\\KrazyKarts\\KrazyKarts.uproject",
 				"-game",
 				"-engine"
 			],
 			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.26"
+			"cwd": "C:\\FastEpicGamesLibrary\\UE_4.27"
 		}
 	]
 }
