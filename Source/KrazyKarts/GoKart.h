@@ -57,10 +57,11 @@ private:
 	void UpdatePositionFromVelocity(float DeltaTime);
 	void UpdateRotation(float DeltaTime);
 
-	UPROPERTY(Replicated)
-	FVector ReplicatedLocation;
-	UPROPERTY(Replicated)
-	FRotator ReplicatedRotation;
+	UFUNCTION()
+	void OnRep_ReplicatedTransform();
+
+	UPROPERTY(ReplicatedUsing=OnRep_ReplicatedTransform)
+	FTransform ReplicatedTransform;
 	FVector Velocity;
 	float Throttle;
 	float SteeringThrow; 
