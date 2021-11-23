@@ -62,7 +62,10 @@ private:
 
 	UPROPERTY(ReplicatedUsing=OnRep_ReplicatedTransform)
 	FTransform ReplicatedTransform;
+	UPROPERTY(Replicated)
 	FVector Velocity;
+	UPROPERTY(Replicated)
 	float Throttle;
+	UPROPERTY(Replicated)
 	float SteeringThrow; 
 };

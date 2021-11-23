@@ -28,6 +28,9 @@ void AGoKart::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeP
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AGoKart, ReplicatedTransform);
+	DOREPLIFETIME(AGoKart, Velocity);
+	DOREPLIFETIME(AGoKart, Throttle);
+	DOREPLIFETIME(AGoKart, SteeringThrow);
 }
 
 // This was created because yolo, it could be used UEnum::GetValueAsString(GetLocalRole(), value); instead
