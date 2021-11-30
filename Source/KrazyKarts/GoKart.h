@@ -74,6 +74,8 @@ public:
 	float RollingResistanceCoefficient = 0.015;
 private:
 	void SimulateMove(FGoKartMove Move);
+	FGoKartMove CreateMove(float DeltaTime);
+	void ClearAcknowledgedMoves(FGoKartMove LastMove);
 	FVector GetAirResistance();
 	FVector GetRollingResistance();
 	void MoveForward(float Value);
@@ -92,4 +94,5 @@ private:
 
 	float Throttle;
 	float SteeringThrow; 
+	TArray<FGoKartMove> UnacknowledgedMoves;
 };
