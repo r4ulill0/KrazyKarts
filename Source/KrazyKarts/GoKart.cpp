@@ -82,6 +82,11 @@ void AGoKart::OnRep_ServerState()
 	SetActorTransform(ServerState.Transform);
 	Velocity = ServerState.Velocity;
 	ClearAcknowledgedMoves(ServerState.LastMove);
+
+	for (const FGoKartMove& Move: UnacknowledgedMoves)
+	{
+		SimulateMove(Move);
+	}
 }
 
 void AGoKart::ClearAcknowledgedMoves(FGoKartMove LastMove)
@@ -148,7 +153,7 @@ bool AGoKart::Server_SendMove_Validate(FGoKartMove Move)
 	return true;// TODO validation
 }
 
-void AGoKart::SimulateMove(FGoKartMove Move)
+void AGoKart::SimulateMove(const FGoKartMove& Move)
 {
 	if (Mass == 0) return;
 	FVector Force = MaxDrivingForce * Move.Throttle * GetActorForwardVector();

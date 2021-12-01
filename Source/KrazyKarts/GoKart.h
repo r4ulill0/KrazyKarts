@@ -73,7 +73,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	float RollingResistanceCoefficient = 0.015;
 private:
-	void SimulateMove(FGoKartMove Move);
+	void SimulateMove(const FGoKartMove& Move);
 	FGoKartMove CreateMove(float DeltaTime);
 	void ClearAcknowledgedMoves(FGoKartMove LastMove);
 	FVector GetAirResistance();
