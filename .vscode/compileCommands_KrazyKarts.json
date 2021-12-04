@@ -10,6 +10,26 @@
 		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\GoKartMovementComponent.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_KrazyKarts\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\GoKartMovementComponent.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_KrazyKarts\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\GoKartMovementReplicator.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_KrazyKarts\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\GoKartMovementReplicator.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_KrazyKarts\\KrazyKarts.203.rsp\"",
+		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\VideoGamesProjects\\\\KrazyKarts\\\\Source\\\\KrazyKarts\\\\KrazyKarts.Build.cs",
 		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"D:\\VideoGamesProjects\\KrazyKarts\\.vscode\\compileCommands_KrazyKarts\\KrazyKarts.203.rsp\"",
 		"directory": "C:\\FastEpicGamesLibrary\\UE_4.27\\Engine\\Source"
