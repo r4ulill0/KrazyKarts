@@ -34,7 +34,7 @@ void UGoKartMovementReplicator::TickComponent(float DeltaTime, ELevelTick TickTy
 	}
 
 	// We are the server (authority) and the controller of the pawn
-	if (GetOwner()->GetLocalRole() == ROLE_Authority && GetOwner()->GetLocalRole() == ROLE_SimulatedProxy)
+	if (GetOwner()->GetLocalRole() == ROLE_Authority && GetOwner()->GetRemoteRole() == ROLE_SimulatedProxy)
 	{
 		FGoKartMove Move = MovementComponent->CreateMove(DeltaTime);
 		Server_SendMove(Move);
