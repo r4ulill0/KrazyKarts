@@ -38,12 +38,12 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	FGoKartState GetServerState() {return ServerState;};
-	void AddMovement(FGoKartMove Move) {UnacknowledgedMoves.Add(Move);};
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_SendMove(FGoKartMove Move);
 
 private:
 	void ClearAcknowledgedMoves(FGoKartMove LastMove);
+	void UpdateServerState(const FGoKartMove& Move);
 
 	UPROPERTY(ReplicatedUsing=OnRep_ServerState)
 	FGoKartState ServerState;

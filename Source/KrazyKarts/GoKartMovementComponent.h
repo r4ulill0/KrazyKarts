@@ -59,11 +59,11 @@ public:
 	float RollingResistanceCoefficient = 0.015;
 
 	void SimulateMove(const FGoKartMove& Move);
-	FGoKartMove CreateMove(float DeltaTime);
 
 	void SetVelocity(FVector Value) {Velocity = Value;};
 	void SetThrottle(float Value) {Throttle = Value;};
 	void SetSteeringThrow(float Value) {SteeringThrow = Value;};
+	FGoKartMove GetLastMove() {return LastMove;};
 	FVector GetVelocity() {return Velocity;};
 
 private:
@@ -71,7 +71,9 @@ private:
 	FVector GetRollingResistance();
 	void UpdatePositionFromVelocity(float DeltaTime);
 	void UpdateRotation(float DeltaTime, float SteeringThrow);
+	FGoKartMove CreateMove(float DeltaTime);
 	FVector Velocity;
 	float Throttle;
 	float SteeringThrow; 
+	FGoKartMove LastMove;
 };
