@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "GoKartMovementReplicator.h" // Sets default values for this component's properties UGoKartMovementReplicator::UGoKartMovementReplicator() { // Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features // off to improve performance if you don't need them.  PrimaryComponentTick.bCanEverTick = true; SetIsReplicated(true); } // Called when the game starts void UGoKartMovementReplicator::BeginPlay()
 #include "Net/UnrealNetwork.h"
+#include "Math/Quat.h"
 
 UGoKartMovementReplicator::UGoKartMovementReplicator()
 {
@@ -59,11 +60,15 @@ void UGoKartMovementReplicator::ClientTick(float DeltaTime)
 
 	float LerpRatio = ClientTimeSinceUpdate / ClientTimeBetweenLastUpdates;
 	FVector TargetLocation = ServerState.Transform.GetLocation();
-	FVector StartLocation = ClientStartLocation;
+	FVector StartLocation = ClientStartTransform.GetLocation();
+	FQuat TargetRotation = ServerState.Transform.GetRotation();
+	FQuat StartRotation = ClientStartTransform.GetRotation();
 
 	FVector NextLocation = FMath::LerpStable(StartLocation, TargetLocation, LerpRatio);
+	FQuat NextRotation = FQuat::Slerp(StartRotation, TargetRotation, LerpRatio);
 
 	GetOwner()->SetActorLocation(NextLocation);
+	GetOwner()->SetActorRotation(NextRotation);
 }
 
 void UGoKartMovementReplicator::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const
@@ -131,5 +136,5 @@ void UGoKartMovementReplicator::SimulatedProxy_OnRep_ServerState()
 {
 	ClientTimeBetweenLastUpdates = ClientTimeSinceUpdate;
 	ClientTimeSinceUpdate = 0;
-	ClientStartLocation = GetOwner()->GetActorLocation();
+	ClientStartTransform = GetOwner()->GetActorTransform();
 }
