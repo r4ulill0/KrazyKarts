@@ -60,20 +60,46 @@ void UGoKartMovementReplicator::ClientTick(float DeltaTime)
 	if (MovementComponent == nullptr) return;
 
 	float LerpRatio = ClientTimeSinceUpdate / ClientTimeBetweenLastUpdates;
-	FVector TargetLocation = ServerState.Transform.GetLocation();
-	FVector StartLocation = ClientStartTransform.GetLocation();
+	FHermiteCubicSpline Spline = CreateSpline();
+
+	InterpolateLocation(Spline, LerpRatio);
+	InterpolateVelocity(Spline, LerpRatio);
+	InterpolateRotation(LerpRatio);
+}
+
+FHermiteCubicSpline UGoKartMovementReplicator::CreateSpline()
+{
+	FHermiteCubicSpline Spline;
+	Spline.StartLocation = ClientStartTransform.GetLocation();
+	Spline.TargetLocation = ServerState.Transform.GetLocation();
+	Spline.StartDerivative = ClientStartVelocity * VelocityToDerivative() ;
+	Spline.TargetDerivative = ServerState.Velocity * VelocityToDerivative(); 
+	return Spline;
+}
+
+void UGoKartMovementReplicator::InterpolateLocation(FHermiteCubicSpline& Spline, float LerpRatio)
+{
+	FVector NextLocation = Spline.InterpolateSpline(LerpRatio);
+	GetOwner()->SetActorLocation(NextLocation);
+}
+
+void UGoKartMovementReplicator::InterpolateRotation(float LerpRatio)
+{
 	FQuat TargetRotation = ServerState.Transform.GetRotation();
 	FQuat StartRotation = ClientStartTransform.GetRotation();
-	FVector StartDerivative = ClientStartVelocity * 100; // 100 bc main unit in UE is centimeters
-	FVector TargetDerivative = ServerState.Velocity * ClientTimeBetweenLastUpdates * 100; 
-
 	FQuat NextRotation = FQuat::Slerp(StartRotation, TargetRotation, LerpRatio);
-	FVector NextLocation = FMath::CubicInterp(StartLocation, StartDerivative, TargetLocation, TargetDerivative, LerpRatio);
-	FVector NextVelocity = FMath::CubicInterpDerivative(StartLocation, StartDerivative, TargetLocation, TargetDerivative, LerpRatio) / 100;
-
-	GetOwner()->SetActorLocation(NextLocation);
 	GetOwner()->SetActorRotation(NextRotation);
+}
+
+void UGoKartMovementReplicator::InterpolateVelocity(FHermiteCubicSpline& Spline, float LerpRatio)
+{
+	FVector NextVelocity = Spline.InterpolateDerivative(LerpRatio) / VelocityToDerivative();
 	MovementComponent->SetVelocity(NextVelocity);
+}
+
+float UGoKartMovementReplicator::VelocityToDerivative()
+{
+	return ClientTimeBetweenLastUpdates * 100; // 100 bc main unit in UE is centimeters
 }
 
 void UGoKartMovementReplicator::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const
